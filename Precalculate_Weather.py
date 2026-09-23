@@ -4,12 +4,10 @@ import random
 import sys
 from config import Config
 
-sys.path.append(Config.VehiclesTraffic.PROJECT_ROOT)
-sys.path.append(Config.VehiclesTraffic.NOISE_CONFIGS_PATH)
 
 try:
-    from NoiseConfigs.utilsFunctions import UtilsFunc
-    from NoiseConfigs.noiseConfigGeneralAttribute import NoiseConfigGeneralAttribute
+    from environment.geometry import UtilsFunc
+    from environment.noise_attributes import NoiseConfigGeneralAttribute
 except ImportError as e:
     print(f"Error importing modules: {e}")
     sys.exit(1)
@@ -27,7 +25,7 @@ def is_rain_period(t):
 
 def main():
     print("Loading partitions for weather...")
-    partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+    partitions = UtilsFunc.load_partitions("environment.partitions")
     p_names = [p.__class__.__name__ for p in partitions]
 
     weather_cache = {}

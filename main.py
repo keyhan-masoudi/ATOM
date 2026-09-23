@@ -2,17 +2,17 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from config import Config
 from controllers.loader import Loader
-from controllers.simulator import Simulator, red_bg
+from controllers.simulators.base import Simulator, red_bg
 from models.node.cloud import CloudNode
 from utils.clock import Clock
 
-from controllers.simulator_maddpg import SimulatorMADDPG
-from controllers.Simulator.simulator_ddpg_new import SimulatorDDPGnew
-from controllers.Simulator.simulator_mappo import SimulatorMAPPO
-from controllers.Simulator.simulator_ddpg import SimulatorDDPG
-from controllers.Simulator.simulator_ppo import SimulatorPPO
-from controllers.Simulator.simulator_sac import SimulatorSAC
-from controllers.Simulator.simulator_greedy import SimulatorGreedy
+from controllers.simulators.simulator_maddpg import SimulatorMADDPG
+from controllers.simulators.simulator_ddpg_new import SimulatorDDPGnew
+from controllers.simulators.simulator_mappo import SimulatorMAPPO
+from controllers.simulators.simulator_ddpg import SimulatorDDPG
+from controllers.simulators.simulator_ppo import SimulatorPPO
+from controllers.simulators.simulator_sac import SimulatorSAC
+from controllers.simulators.simulator_greedy import SimulatorGreedy
 
 
 def run_one(params):

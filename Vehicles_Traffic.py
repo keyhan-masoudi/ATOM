@@ -5,11 +5,9 @@ import xml.etree.ElementTree as ET
 import sys
 from config import Config
 
-sys.path.append(Config.VehiclesTraffic.PROJECT_ROOT)
-sys.path.append(Config.VehiclesTraffic.NOISE_CONFIGS_PATH)
 
 try:
-    from NoiseConfigs.utilsFunctions import UtilsFunc
+    from environment.geometry import UtilsFunc
 except ImportError as e:
     print(f"Error importing modules: {e}")
     sys.exit(1)
@@ -107,7 +105,7 @@ def read_and_print_dynamic_traffic(target_time=None):
 
 def main():
     print(f"Loading partitions exactly from: {Config.VehiclesTraffic.NOISE_CONFIGS_PATH} ...")
-    partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+    partitions = UtilsFunc.load_partitions("environment.partitions")
 
     traffic_cache_path = os.path.join(Config.Paths.pklPath, "traffic_processed_data.pkl")
 

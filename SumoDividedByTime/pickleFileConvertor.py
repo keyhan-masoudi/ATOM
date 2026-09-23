@@ -5,8 +5,7 @@ import glob
 import re
 from config import Config
 
-sys.path.append(os.path.abspath(Config.Paths.NoiseConfigsPath))
-from NoiseConfigs.utilsFunctions import UtilsFunc
+from environment.geometry import UtilsFunc
 
 
 def generate_cache_file():
@@ -16,7 +15,7 @@ def generate_cache_file():
     full_pkl_path = os.path.join(pkl_dest_dir, pkl_filename)
 
     print("Loading partitions...")
-    partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+    partitions = UtilsFunc.load_partitions("environment.partitions")
 
     traffic_cache = {}
 

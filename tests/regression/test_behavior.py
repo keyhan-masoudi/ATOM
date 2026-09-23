@@ -9,7 +9,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from config import Config
-from controllers.metric import MetricsController
+from controllers.metrics import MetricsController
 from models.node.user import UserNode
 from models.task import Task
 from task_parameter_generation_uunifast import generate

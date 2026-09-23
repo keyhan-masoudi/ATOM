@@ -1,3 +1,6 @@
+from utils.paths import PROJECT_ROOT as REPOSITORY_ROOT
+
+
 class Config:
     CHUNK_SIZE = 100
     NEGATIVE_REWARD = -10
@@ -36,41 +39,13 @@ class Config:
         DEFAULT_FN = FN_HAM
 
     class Paths:
-        # NoiseConfigsPath = "D:/av_project/NoiseConfigs"
-        # pklPath = r"D:\av_project\SumoDividedByTime"
-
-        # Uni's path
-        NoiseConfigsPath = "D:/Abbas/python projects/av_project/av_project/NoiseConfigs"
-        pklPath = r"D:\Abbas\python projects\av_project\av_project\SumoDividedByTime"
-
-        # Rasoul's Path
-        NoiseConfigsPath = "C:/Users/amras/Desktop/Abbas/av_project/av_project/NoiseConfigs"
-        pklPath = r"C:\Users\amras\Desktop\Abbas\av_project\av_project\SumoDividedByTime"
-        
-        # keyhan's path
-        # NoiseConfigsPath = r"D:\code\final_av\av_project\NoiseConfigs"
-        # pklPath = r"D:\code\final_av\av_project\SumoDividedByTime"
-        
+        NoiseConfigsPath = str(REPOSITORY_ROOT / "environment")
+        pklPath = str(REPOSITORY_ROOT / "SumoDividedByTime")
 
     class VehiclesTraffic:
-        # PROJECT_ROOT = r"D:\av_project"
-        # NOISE_CONFIGS_PATH = r"D:\av_project\NoiseConfigs"
-        # PKL_PATH = r"D:\av_project\precalculated_vehicle_traffic.pkl"
-
-        # Uni's path
-        PROJECT_ROOT = r"D:\Abbas\python projects\av_project\av_project"
-        NOISE_CONFIGS_PATH = r"D:\Abbas\python projects\av_project\av_project\NoiseConfigs"
-        PKL_PATH = r"D:\Abbas\python projects\av_project\av_project\precalculated_vehicle_traffic.pkl"
-
-        # Rasoul's Path 
-        PROJECT_ROOT = r"C:\Users\amras\Desktop\Abbas\av_project\av_project"
-        NOISE_CONFIGS_PATH = r"C:\Users\amras\Desktop\Abbas\av_project\av_project\NoiseConfigs"
-        PKL_PATH = r"C:\Users\amras\Desktop\Abbas\av_project\av_project\precalculated_vehicle_traffic.pkl"
-        
-        # keyhan's path
-        # PROJECT_ROOT = r"D:\code\final_av\av_project"
-        # NOISE_CONFIGS_PATH = r"D:\code\final_av\av_project\NoiseConfigs"
-        # PKL_PATH = r"D:\code\final_av\av_project\precalculated_vehicle_traffic.pkl"
+        PROJECT_ROOT = str(REPOSITORY_ROOT)
+        NOISE_CONFIGS_PATH = str(REPOSITORY_ROOT / "environment")
+        PKL_PATH = str(REPOSITORY_ROOT / "precalculated_vehicle_traffic.pkl")
 
     class TrafficCount:
         GreenTraffic = 5

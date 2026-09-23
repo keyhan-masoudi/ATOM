@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 from collections import defaultdict
-from NoiseConfigs.utilsFunctions import UtilsFunc  # Import your utility functions
+from environment.geometry import UtilsFunc  # Import your utility functions
 import os
+from utils.paths import PROJECT_ROOT
 
 # --- Settings ---
 # Place the name of your XML file here
@@ -103,13 +104,13 @@ def analyze_traffic_xml(xml_path: str, partitions: list) -> pd.DataFrame:
 
 if __name__ == "__main__":
     # Ensure the generated partitions file exists
-    if not os.path.exists("generated_hex_partitions.py"):
+    if not os.path.exists(PROJECT_ROOT / "environment" / "partitions.py"):
         print("Error: The file 'generated_hex_partitions.py' was not found.")
         print("Please run the 'HexPartitionGenerator.py' script first.")
     else:
         # Load the partition definitions
         print("Loading partition definitions...")
-        all_partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+        all_partitions = UtilsFunc.load_partitions("environment.partitions")
 
         if not all_partitions:
             print("No partitions were loaded. Check the 'generated_hex_partitions.py' file.")

@@ -2,7 +2,7 @@ from collections import defaultdict
 import gc
 from typing import Type
 
-from NoiseConfigs.utilsFunctions import UtilsFunc
+from environment.geometry import UtilsFunc
 from controllers.zone_managers.base import ZoneManagerABC
 from controllers.zone_managers.heuristic import HeuristicZoneManager
 # from controllers.zone_managers.heuristic2 import HeuristicZoneManager2
@@ -11,13 +11,13 @@ from controllers.zone_managers.random import RandomZoneManager
 from controllers.zone_managers.only_cloud import OnlyCloudZoneManager
 from controllers.zone_managers.only_fog import OnlyFogZoneManager
 from controllers.zone_managers.only_local import OnlyLocalZoneManager
-from controllers.zone_managers.deepRL.deep_rl_zone_manager import DeepRLZoneManager
-from controllers.zone_managers.MADDPG.deep_rl_zone_manager_maddpg import DeepRLZoneManagerMADDGP
-from controllers.zone_managers.MAPPO.deep_rl_zone_manager_mappo import DeepRLZoneManagerMAPPO
-from controllers.zone_managers.DDPG.deep_rl_zone_manager_ddpg import DeepRLZoneManager_DDPG
-from controllers.zone_managers.PPO.deep_rl_zone_manager_PPO import DeepRLZoneManagerPPO
-from controllers.zone_managers.SAC.deep_rl_zone_manager_sac import DeepRLZoneManagerSAC
-from controllers.zone_managers.DDPG_new.deep_rl_zone_manager_ddpg_new import DeepRLZoneManager_DDPG_New
+from controllers.zone_managers.deep_rl.deep_rl_zone_manager import DeepRLZoneManager
+from controllers.zone_managers.maddpg.deep_rl_zone_manager_maddpg import DeepRLZoneManagerMADDGP
+from controllers.zone_managers.mappo.deep_rl_zone_manager_mappo import DeepRLZoneManagerMAPPO
+from controllers.zone_managers.ddpg.deep_rl_zone_manager_ddpg import DeepRLZoneManager_DDPG
+from controllers.zone_managers.ppo.deep_rl_zone_manager_ppo import DeepRLZoneManagerPPO
+from controllers.zone_managers.sac.deep_rl_zone_manager_sac import DeepRLZoneManagerSAC
+from controllers.zone_managers.ddpg_new.deep_rl_zone_manager_ddpg_new import DeepRLZoneManager_DDPG_New
 from controllers.zone_managers.greedy import GreedyZoneManager
 from utils.xml_parser import *
 
@@ -93,7 +93,7 @@ class Loader:
         zones = self.zone_parser.parse()
 
         # note: removed!
-        # partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+        # partitions = UtilsFunc.load_partitions("environment.partitions")
         # factory_partitions = self.findAllFactoryPartitions(partitions)
 
         for zone in zones:

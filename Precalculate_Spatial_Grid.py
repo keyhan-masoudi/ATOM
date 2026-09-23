@@ -4,11 +4,9 @@ import pickle
 from config import Config
 
 # Append project paths to ensure correct module loading
-sys.path.append(Config.VehiclesTraffic.PROJECT_ROOT)
-sys.path.append(Config.VehiclesTraffic.NOISE_CONFIGS_PATH)
 
 try:
-    from NoiseConfigs.utilsFunctions import UtilsFunc
+    from environment.geometry import UtilsFunc
 except ImportError as e:
     print(f"Error importing modules: {e}")
     sys.exit(1)
@@ -21,7 +19,7 @@ BUFFER = 100
 
 def main():
     print("Loading partitions for spatial grid initialization...")
-    partitions = UtilsFunc.load_partitions("generated_hex_partitions")
+    partitions = UtilsFunc.load_partitions("environment.partitions")
 
     if not partitions:
         print("No partitions found! Please check your configuration.")

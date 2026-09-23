@@ -7,8 +7,6 @@ import xml.etree.ElementTree as ET
 from config import Config
 
 # Append project paths
-sys.path.append(Config.VehiclesTraffic.PROJECT_ROOT)
-sys.path.append(Config.VehiclesTraffic.NOISE_CONFIGS_PATH)
 
 
 def main():

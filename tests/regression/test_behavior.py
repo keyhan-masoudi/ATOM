@@ -3,9 +3,7 @@ import contextlib
 import hashlib
 import io
 import json
-import random
 import unittest
-from pathlib import Path
 from unittest.mock import patch
 
 from config import Config

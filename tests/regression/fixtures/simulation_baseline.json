@@ -1,0 +1,3577 @@
+{
+  "DDPG": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 3.375,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 3.375,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 3.375,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 3.39375,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 3.3899999999999997,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 3.3874999999999997,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 3.3874999999999997,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 4,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 5,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 5,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 1.125,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 2.125,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 3.125,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 5.125,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 6.125,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      }
+    ]
+  },
+  "DDPGNew": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": -0.5,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 4,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 5,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.0,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "DeepRL": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 3.3333333333333335,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 3.555555555555556,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 3.555555555555556,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 3.6,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 3.6,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 3.5749999999999997,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 3.5749999999999997,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 1.1666666666666665,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 2.1666666666666665,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 4.166666666666667,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 6.05,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      }
+    ]
+  },
+  "Greedy": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 4,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 5,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.0,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "Heuristic": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 4,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 5,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.0,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "MADDPG": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 4.0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 4.0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 3.666666666666667,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 3.594444444444445,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 3.5583333333333336,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 3.5366666666666666,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 3.5027777777777778,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 3.5027777777777778,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 2,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 2.1666666666666665,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 3.05,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 5.05,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 6.166666666666667,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "MAPPO": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 4.0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 4.0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 4.0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 3.777777777777778,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 3.6958333333333337,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 3.631666666666667,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 3.5819444444444444,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 3.5819444444444444,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 3.1666666666666665,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 5.125,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 6.166666666666667,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "Only Cloud": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 2,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 4,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 5,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 6,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 6,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.95,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 1.05,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 2.05,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 3.05,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 5.05,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 6.05,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      }
+    ]
+  },
+  "Only Fog": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 4,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 5,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 6,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 6,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 1.125,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 2.1666666666666665,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 3.1666666666666665,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 4.125,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 5.125,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 6.166666666666667,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "Only Local": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 4,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 5,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 6,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.0,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "PPO": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 3.375,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 3.5694444444444446,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 3.5694444444444446,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 3.631666666666667,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 3.693055555555556,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 3.693055555555556,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 3.693055555555556,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 4,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 1.125,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 2.1666666666666665,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 2.5,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 4.5,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "Random": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 1,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 2,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 8,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 3,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.0,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.0,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 1.5,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.8333333333333335,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 3.1666666666666665,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 5.166666666666667,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 5.5,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      }
+    ]
+  },
+  "SAC": {
+    "convergence": [
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 0
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 1
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 2
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 3
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 4
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 5
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 6
+      },
+      {
+        "CumulativeAvgReward": 0,
+        "DeadlineMissRatio": 0.0,
+        "PacketLossRatio": 0.0,
+        "StepAvgReward": 0,
+        "TimeStep": 7
+      }
+    ],
+    "metrics": [
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 0,
+        "Total completed tasks": 1,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 0
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 2,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 0,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 1
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 1,
+        "Total cloud tasks": 1,
+        "Total completed tasks": 3,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 2
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 2,
+        "Total completed tasks": 5,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 3
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 6,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 1,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 4
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 2,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 7,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 2,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 5
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 6
+      },
+      {
+        "Deadline miss ratio": "0.000%",
+        "No Resource found by deadline miss ratio": "0.000%",
+        "Packet loss ratio": "0.000%",
+        "Total Hard execution tasks": 3,
+        "Total cloud tasks": 3,
+        "Total completed tasks": 9,
+        "Total deadline misses": 0,
+        "Total fog execution tasks": 3,
+        "Total hard deadline misses": 0,
+        "Total local execution tasks": 0,
+        "Total no_device_found_to_run_becauseOf_Noise": 0,
+        "Total packet loss": 0,
+        "timeStep": 7
+      }
+    ],
+    "missed": [],
+    "success": [
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 0.5,
+        "release_time": 0,
+        "task_id": "V_H_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 3.0,
+        "deadline_diff": -1.95,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 1.05,
+        "release_time": 0.0,
+        "task_id": "V_S_0"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 4.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 2.125,
+        "release_time": 1.0,
+        "task_id": "V_S_1"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 3.5,
+        "release_time": 3,
+        "task_id": "V_H_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 5.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 3.05,
+        "release_time": 2.0,
+        "task_id": "V_S_2"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 6.0,
+        "deadline_diff": -1.9500000000000002,
+        "exec_time": 0.5,
+        "executor_id": "C",
+        "finish_time": 4.05,
+        "release_time": 3.0,
+        "task_id": "V_S_3"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 7.0,
+        "deadline_diff": -1.833333333333333,
+        "exec_time": 0.5,
+        "executor_id": "M",
+        "finish_time": 5.166666666666667,
+        "release_time": 4.0,
+        "task_id": "V_S_4"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 9.0,
+        "deadline_diff": -2.5,
+        "exec_time": 0.5,
+        "executor_id": "V",
+        "finish_time": 6.5,
+        "release_time": 6,
+        "task_id": "V_H_6"
+      },
+      {
+        "data_size": 0.25,
+        "deadline": 8.0,
+        "deadline_diff": -1.875,
+        "exec_time": 0.5,
+        "executor_id": "F",
+        "finish_time": 6.125,
+        "release_time": 5.0,
+        "task_id": "V_S_5"
+      }
+    ]
+  }
+}

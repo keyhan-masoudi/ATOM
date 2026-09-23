@@ -290,7 +290,7 @@ class Simulator:
                     self.offload_to_cloud(task, current_time, partitions, self.cloud_node)
 
     def load_cached_weather(self):
-        pkl_path = os.path.join(Config.VehiclesTraffic.PROJECT_ROOT, "precalculated_weather.pkl")
+        pkl_path = os.path.join(Config.VehiclesTraffic.CACHE_ROOT, "precalculated_weather.pkl")
         print(f"Loading precalculated weather from: {pkl_path}")
 
         if os.path.exists(pkl_path):
@@ -321,7 +321,7 @@ class Simulator:
         """
         Loads the O(1) precalculated future trajectory predictions for all vehicles.
         """
-        pkl_path = os.path.join(Config.VehiclesTraffic.PROJECT_ROOT, "precalculated_vehicle_predictions.pkl")
+        pkl_path = os.path.join(Config.VehiclesTraffic.CACHE_ROOT, "precalculated_vehicle_predictions.pkl")
         print(f"Loading precalculated future predictions from: {pkl_path}")
 
         self.precalculated_vehicle_predictions = {}
@@ -481,19 +481,7 @@ class Simulator:
                 loaded_count += 1
         return loaded_count
 
-    def _assign_hard_task_locally(
-            self,
-            task: Task,
-            creator: MobileNodeABC,
-            current_time: float,
-    ) -> None:
-        """Assign a pre-generated hard task to the creating vehicle's local processor."""
-        creator.assign_local_hard_task(task, current_time)
 
-    def load_tasks(self, current_time: float) -> Dict[str, List[Task]]:
-        """Load soft tasks; hard tasks are loaded via load_hard_tasks()."""
-        self.load_hard_tasks(current_time)
-        return self.load_soft_tasks(current_time)
 
     def _assign_hard_task_locally(
             self,
@@ -1042,7 +1030,7 @@ class Simulator:
             return -2
 
     def load_cached_vehicle_traffic(self):
-        pkl_path = os.path.join(Config.VehiclesTraffic.PROJECT_ROOT, "precalculated_vehicle_traffic.pkl")
+        pkl_path = os.path.join(Config.VehiclesTraffic.CACHE_ROOT, "precalculated_vehicle_traffic.pkl")
 
         print(green_bg(f"Loading precalculated vehicle traffic from: {pkl_path}"))
 
@@ -1099,7 +1087,7 @@ class Simulator:
         Loads the precalculated spatial grid from a Pickle file to enable O(1)
         partition lookups, significantly reducing geometric calculation overhead.
         """
-        pkl_path = os.path.join(Config.VehiclesTraffic.PROJECT_ROOT, "precalculated_spatial_grid.pkl")
+        pkl_path = os.path.join(Config.VehiclesTraffic.CACHE_ROOT, "precalculated_spatial_grid.pkl")
         print(f"Loading spatial grid cache from: {pkl_path}")
 
         try:

@@ -7,7 +7,7 @@ from scipy.special import erfc
 from environment.geometry import UtilsFunc
 from config import Config
 from models.node.cloud import CloudNode
-from task_and_user_generator import Config as Cnf
+from preprocessing.task_and_user_generator import Config as Cnf
 from models.node.fog import FixedFogNode, FogLayerABC
 from models.node.base import MobileNodeABC, green_bg, blue_bg
 

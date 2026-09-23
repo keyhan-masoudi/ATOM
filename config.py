@@ -1,4 +1,4 @@
-from utils.paths import PROJECT_ROOT as REPOSITORY_ROOT
+from utils.paths import PROJECT_ROOT as REPOSITORY_ROOT, CACHE_ROOT
 
 
 class Config:
@@ -40,12 +40,13 @@ class Config:
 
     class Paths:
         NoiseConfigsPath = str(REPOSITORY_ROOT / "environment")
-        pklPath = str(REPOSITORY_ROOT / "SumoDividedByTime")
+        pklPath = str(CACHE_ROOT)
 
     class VehiclesTraffic:
         PROJECT_ROOT = str(REPOSITORY_ROOT)
+        CACHE_ROOT = str(CACHE_ROOT)
         NOISE_CONFIGS_PATH = str(REPOSITORY_ROOT / "environment")
-        PKL_PATH = str(REPOSITORY_ROOT / "precalculated_vehicle_traffic.pkl")
+        PKL_PATH = str(REPOSITORY_ROOT / "data" / "caches" / "precalculated_vehicle_traffic.pkl")
 
     class TrafficCount:
         GreenTraffic = 5

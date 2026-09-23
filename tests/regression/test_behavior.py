@@ -12,7 +12,7 @@ from config import Config
 from controllers.metrics import MetricsController
 from models.node.user import UserNode
 from models.task import Task
-from task_parameter_generation_uunifast import generate
+from preprocessing.task_parameters import generate
 
 
 def task_for(node, identifier, execution, deadline):

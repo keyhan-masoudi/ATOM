@@ -6,7 +6,7 @@ import gymnasium as gym
 from gymnasium import spaces
 from config import Config
 from models.node.cloud import CloudNode
-from task_and_user_generator import Config as CNF
+from preprocessing.task_and_user_generator import Config as CNF
 from models.node.base import findExecTimeInEachKindOfNode, find_closest_fn, findDataRate, green_bg, blue_bg
 from models.node.fog import FixedFogNode, MobileFogNode
 from collections import deque

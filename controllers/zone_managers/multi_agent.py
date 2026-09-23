@@ -4,7 +4,7 @@ from collections import deque
 from config import Config
 from models.node.base import findExecTimeInEachKindOfNode, findDataRate, find_closest_fn
 from models.node.fog import FixedFogNode, MobileFogNode
-from task_and_user_generator import Config as Cnf
+from preprocessing.task_and_user_generator import Config as Cnf
 from environment.noise_attributes import NoiseConfigGeneralAttribute as NCNF
 
 def get_action_mask(task, simulator):

@@ -2,7 +2,7 @@
 *.xml
 *.xlsx
 SumoOutputGenerator
-SumoDividedByTime/Outputs2/
+data/caches/traffic_csv/
 share
 Scripts
 Lib
@@ -12,3 +12,19 @@ __pycache__
 *.png
 *.json
 githubhelper.txt
+
+# Local environments, operating-system metadata, and review scratch files.
+.DS_Store
+*.py[cod]
+/venv/
+/.venv/
+/tmp/
+.pytest_cache/
+
+# Committed research inputs and test fixtures.
+!data/datasets/*.csv
+!data/reports/*.csv
+!data/reports/*.xlsx
+!data/reports/*.png
+!data/hard_task_parameters_*.json
+!tests/regression/fixtures/*.json
